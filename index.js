@@ -6,7 +6,7 @@
       },
   
       openWebApp: function() {
-        windows.location.href = "https://apps.apple.com/us/app/ultrasync/id1103085533";
+        window.location.href = "https://apps.apple.com/us/app/ultrasync/id1103085533";
         //window.location.replace("https://apps.apple.com/us/app/ultrasync/id1103085533");
         //const iframe = document.getElementById("load_appstore");
         //iframe.setAttribute("src", 'https://itunes.apple.com/us/app/ultrasync/id1103085533');
