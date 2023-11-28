@@ -1,7 +1,7 @@
 (function() {
     var app = {
       launchApp: function() {
-        //window.location.replace("POCNFCAPP://");
+        window.location.replace("POCNFCAPP://");
         this.timer = setTimeout(this.openWebApp, 10000);
       },
   
