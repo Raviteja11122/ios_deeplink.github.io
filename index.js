@@ -7,7 +7,7 @@
         }
         if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
           window.location.replace("com.aritech.ngms://main/ngms/");
-          this.timer = setTimeout(this.openWebApp, 10000);
+          this.timer = setTimeout(this.openWebApp, 25);
         }
       },
   
