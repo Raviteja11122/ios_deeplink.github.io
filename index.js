@@ -3,7 +3,7 @@
       launchApp: function() {
         if(navigator.userAgent.toLowerCase().indexOf("android") > -1){
           window.location.replace("https://dp.ultra-sync.com/ngms");
-          this.timer = setTimeout(this.openWebApp, 25);
+          this.timer = setTimeout(this.openWebApp, 2000);
         }
         if(navigator.userAgent.toLowerCase().indexOf("iphone") > -1){
           window.location.replace("com.aritech.ngms://main/ngms/");
